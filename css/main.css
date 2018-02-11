@@ -27,6 +27,6 @@ body {
 .fontHeight {
     font-size: 50px;
 }
-.secondarySection {
-    
+.secondarySection, .thirdSection {
+    height: 100vh;
 }
