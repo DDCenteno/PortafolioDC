@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="vendors/Bootstrap4/css/bootstrap.css">
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark navbar-dark fixed-top">
                 <a class="navbar-brand" href="#">DC</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -33,18 +33,22 @@
                   </ul>
                 </div>
               </nav>
-    <div class="container-fluid">
-        <section class="row principalSection">
-            <div class="col-md-12 d-flex align-items-center justify-content-center">
+    <div class="container-fluid" id="scene">
+        <section class="row principalSection" data-depth="0.2">
+            <div class="col-md-12 d-flex align-items-center justify-content-center" data-depth="0.2">
                 <div class="presentation text-center">
                     <h1 class="roboto fontHeight">UX Designer</h1>
                     <h7 class="raleway"><span class="hover">Graphic Design</span> | <span class="hover">Illustration</span> | <span class="hover">Photograph</span></h7>
                 </div>
             </div>
         </section>
+        <section class="row secondarySection" data-depth="0.6">
+            
+        </section>
     </div>
     <!-- Paginas externas de js -->
     <script src="vendors/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="vendors/parallax/parallax.min.js"></script>
     <script src="vendors/Bootstrap4/js/bootstrap.js"></script>
     <script src="js/app.js"></script>
 </body>
