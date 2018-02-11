@@ -1,0 +1,29 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.principalSection {
+    height: 100vh;
+    background-image: url(../assets/images/backgroundOne.jpg);
+    background-size: cover;
+}
+.presentation {
+    width: 70%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    color: white;
+}
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.hover:hover {
+    font-weight: bolder;
+    color: white;
+}
+.fontHeight {
+    font-size: 50px;
+}
