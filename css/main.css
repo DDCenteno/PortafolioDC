@@ -2,31 +2,49 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.principalSection {
-    height: 100vh;
-    background-image: url(../assets/images/backgroundOne.jpg);
+#Logo {
+    transition: 1s;
+}
+.DCLogoHover {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transition: 1s;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.description {
+    color: white;
+    height: auto;
+    padding-top:20vh;
+    box-sizing: border-box;
+}
+.pc {
+    box-sizing: border-box;
+}
+.imgPrincipal {
+    background-image: url(../assets/images/FFOne.jpeg);
     background-size: cover;
-}
-.presentation {
-    width: 60%;
-    height: 50%;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 10px;
-    color: white;
-}
-.roboto {
-    font-family: 'Roboto', sans-serif;
-}
-.raleway {
-    font-family: 'Raleway', sans-serif;
-}
-.hover:hover {
-    font-weight: bolder;
-    color: white;
-}
-.fontHeight {
-    font-size: 50px;
-}
-.secondarySection, .thirdSection {
     height: 100vh;
+}
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    transition: 1s;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.blackback {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white;
+}
+.secondaryText {
+    font-family: 'Raleway', sans-serif;
 }
