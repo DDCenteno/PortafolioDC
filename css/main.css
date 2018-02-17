@@ -70,10 +70,8 @@ nav {
     margin: 1vh 1vh;
     width: 80px;
     height: 80px;
-}
-.icoSkillsTwo {
-    width: 85px;
-    height: 85px;
+    box-shadow: 1px 2px 4px gray;
+    border-radius: 20px;
 }
 
 .icoSkillsThree {
@@ -82,8 +80,59 @@ nav {
     margin:1vh 1vh;
 }
 .icons {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     box-sizing: border-box;
     padding: 3%;
     height: 20vh;
+}
+.FourSection {
+    padding-top: 25vh;
+    height: 100vh;
+}
+.mockUp {
+    width: auto;
+    height: 30vh;
+    margin: 5px;
+    box-sizing: border-box;
+}
+#workOne, #workTwo, #workThree {
+    padding-left: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh; 
+}
+.borderTag {
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 3px;
+    color: white;
+}
+.blockButton {
+    margin: 10px;
+    padding-left: 16vh;
+    padding-right: 16vh;
+}
+.tags {
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+.finalSection {
+    background-color: #333;
+    padding-top: 25vh;
+}
+.btnlink  {
+    padding: 10px;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    transition: 1s;
+}
+.btnlink:hover {
+    background-color: white;
+    color: #333;
+    transition: 1s;
 }

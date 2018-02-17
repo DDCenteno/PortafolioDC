@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="assets/fonts/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" rel="stylesheet" href="vendors/animate.css">
     <link rel="stylesheet" href="vendors/materialize/css/materialize.css" media="screen,projection">
@@ -16,25 +17,23 @@
     <div class="navbar">  
         <nav class="" id="menu">
             <div class="nav-wrapper container">
-              <a href="#" class="brand-logo DCLogo" id="Logo">DC</a>
+              <a href="#start" class="brand-logo DCLogo" id="Logo">DC</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
               <ul class="right hide-on-med-and-down">
-                <li><a href="sass.html">About</a></li>
-                <li><a href="badges.html">Skills</a></li>
-                <li><a href="collapsible.html">Work</a></li>
-                <li><a href="mobile.html">Contact</a></li>
+                <li><a href="#about" id="aboutMenu">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
               </ul>
             </div>
           </nav>
         
           <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">About</a></li>
-            <li><a href="badges.html">Skills</a></li>
-            <li><a href="collapsible.html">Work</a></li>
-            <li><a href="mobile.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work</a></li>
           </ul>
     </div>
-      <section class="row principalsection">
+      <section class="row principalsection" id="start">
         <div class="col s12 l12 parallax-container pc">
             <div class="description">
                 <h1 class="PrincipalText header center" id="title">UX Designer</h1>
@@ -45,18 +44,17 @@
           </div>
         </div>
       </section>
-      <section class="row secondarySection">
+      <section class="row secondarySection" id="about">
         <div class="col s12 l6 leftblock">
           <img class="profilePhoto" src="assets/images/firewatch.jpg" alt="profile">
         </div>
         <div class="col s12 l6 rightblock">
-          <h2 class="left" id="AboutMe">About Me</h2>
-          <h5 class="left secondaryText">Hi, I'm Daniela Centeno. Focused on Art and Design, I currently work independently in projects of illustration. But Upon entering to 'Laboratoria', I've Learned to program but with more focus on the user experience (UX). I like to draw and I like to research more about Artificial Intelligence.</h5>
+          <h2 class="left" id="aboutMe">About Me</h2>
+          <h5 class="left secondaryText" id="description">Hi, I'm Daniela Centeno. Focused on Art and Design, I currently work independently in projects of illustration. But Upon entering to 'Laboratoria', I've Learned to program but with more focus on the user experience (UX). I like to draw and I like to research more about Artificial Intelligence.</h5>
           <a class="btn left" href="#" download="CV DanielaCenteno">Download CV</a>
         </div>
       </section>
-      <hr class="separation">
-      <section class="row thirdSection">
+      <section class="row thirdSection" id="skills">
         <h2 class="center primaryText">Skills</h2>
         <div class="col s12 l6 designPart">
           <h4 class="center secondaryText">Design Program</h4>
@@ -80,10 +78,67 @@
           </div>
         </div>
       </section>
+      <section class="row FourSection" id="work">
+        <h2 class="center">Work</h2>
+        <div class="col s12 l4" id="workOne">
+          <img class="mockUp" src="assets/images/LabCarMockUp.png" alt="LabCar">
+          <h5 class="center secondaryText"> LabCar Web </h5>
+          <div class="tags">
+            <span class="secondaryText borderTag">Bootstrap 3</span>
+            <span class="secondaryText borderTag">css</span>
+            <span class="secondaryText borderTag">HTML</span>
+            <span class="secondaryText borderTag">Responsive</span>
+          </div>
+            <div class="blockButton">
+              <a class="btn blue-grey darken-1 pulse " href="https://ddcenteno.github.io/lab-car-boilerplate-Bootstrap/">WebSite <i class="fas fa-desktop"></i></a>
+          </div>
+        </div>
+        <div class="col s12 l4" id="workTwo">
+          <img src="assets/images/alienMockUp.png" alt="SCI-Files" class="mockUp">
+          <h5 class="center secondaryText"> Sci-File Web </h5>
+          <div class="tags">
+            <span class="secondaryText borderTag">Bootstrap 4</span>
+            <span class="secondaryText borderTag">css</span>
+            <span class="secondaryText borderTag">firebase</span>
+            <span class="secondaryText borderTag">jQuery</span>
+            <span class="secondaryText borderTag">omdb</span>
+          </div>
+            <div class="blockButton">
+              <a class="btn blue-grey darken-1 pulse " href="https://ddcenteno.github.io/ProyectMovie/">WebSite <i class="fas fa-desktop"></i></a>
+          </div>
+        </div>
+        <div class="col s12 l4" id="workThree">
+          <img src="assets/images/LaTerminaMockUp.png" alt="LaTermina" class="mockUp">
+          <h5 class="center secondaryText"> La Terminal </h5>
+          <div class="tags">
+            <span class="secondaryText borderTag">User Research</span>
+            <span class="secondaryText borderTag">Figma</span>
+            <span class="secondaryText borderTag">Marvel</span>
+            <span class="secondaryText borderTag">Prototype</span>
+          </div>
+            <div class="blockButton">
+              <a class="btn blue-grey darken-1 pulse " href="https://ddcenteno.github.io/UX_Bux/">WebSite <i class="fas fa-desktop"></i></a>
+          </div>
+        </div>
+      </section>
+      <footer class="page-footer finalSection grey darken-4">
+          <div class="footer-copyright">
+              <div class="container">
+              © 2018 Copyright
 
+              <a class="grey-text text-lighten-4 right" href="#!">
+                  <form name="form1" class="right" method="post" action="mailto:danielacentenoramos@gmail.com" enctype="text/plain">
+                    <button class="right btnlink" type="submit"> <i class="fas fa-envelope"></i></button>
+                  </form>
+                    <a class="right btnlink center" href="www.linkedin.com/in/danielacenteno"> <i class="fab fa-linkedin"></i></a>
+                    <a class="right btnlink center" href="https://github.com/DDCenteno"> <i class="fab fa-github"></i></a>
+              </a>
+              </div>
+            </div>
+          </footer>
     <!-- Paginas externas de js -->
     <script src="vendors/jQuery/jquery-3.3.1.min.js"></script>
-    <script src="vendors/jQuery/typed.js"></script>
+    <script src="vendors/WOW-master/dist/wow.min.js"></script>
     <script src="vendors/parallax/parallax.min.js"></script>
     <script src="vendors/materialize/js/materialize.js"></script>
     <script src="js/app.js"></script>
