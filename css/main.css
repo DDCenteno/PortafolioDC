@@ -45,6 +45,45 @@ nav {
     background-color: rgba(0, 0, 0, 0.7) !important;
     color: white;
 }
+.secondarySection{
+    height: 100vh;
+    box-sizing: border-box;
+    padding-top: 25vh;
+}
+.principalText {
+    font-family: 'Roboto', sans-serif;
+}
 .secondaryText {
     font-family: 'Raleway', sans-serif;
+}
+.leftblock {
+    outline: blueviolet 1px solid;
+}
+.profilePhoto {
+    width: 100%;
+}
+.thirdSection {
+    height: 100vh;
+    padding-top: 25vh;
+}
+.icoSkills {
+    margin: 1vh 1vh;
+    width: 80px;
+    height: 80px;
+}
+.icoSkillsTwo {
+    width: 85px;
+    height: 85px;
+}
+
+.icoSkillsThree {
+    width: auto;
+    height: 80px;
+    margin:1vh 1vh;
+}
+.icons {
+    outline: 1px solid red;
+    box-sizing: border-box;
+    padding: 3%;
+    height: 20vh;
 }
