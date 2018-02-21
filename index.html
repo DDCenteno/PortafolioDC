@@ -15,7 +15,7 @@
 <body>
     <!-- Navegacion -->
     <div class="navbar">  
-        <nav class="" id="menu">
+        <nav class="scrollspy" id="menu">
             <div class="nav-wrapper container">
               <a href="#start" class="brand-logo DCLogo" id="Logo">DC</a>
               <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -23,6 +23,7 @@
                 <li><a href="#about" id="aboutMenu">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </div>
           </nav>
@@ -31,9 +32,10 @@
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#work">Work</a></li>
+            <li><a href="#work">Contact</a></li>
           </ul>
     </div>
-      <section class="row principalsection" id="start">
+      <section class="row principalsection scrollspy" id="start">
         <div class="col s12 l12">
             <div class="description">
                 <h1 class="PrincipalText header center" id="title">Daniela Centeno Ramos</h1>
@@ -41,20 +43,23 @@
               </div>
         </div>
       </section>
-      <section class="row secondarySection" id="about">
+      <section class="row secondarySection scrollspy" id="about">
         <div class="col s12 l6 leftblock">
-          <img class="profilePhoto" src="assets/images/firewatch.jpg" alt="profile">
+          <img class="profilePhoto" src="assets/images/profilephoto.jpg" alt="profile">
         </div>
         <div class="col s12 l6 rightblock">
           <h2 class="left" id="aboutMe">About Me</h2>
-          <h5 class="left secondaryText" id="description">Hi, I'm Daniela Centeno. Focused on Art and Design, I currently work independently in projects of illustration. But Upon entering to 'Laboratoria', I've Learned to program but with more focus on the user experience (UX). I like to draw and I like to research more about Artificial Intelligence.</h5>
+          <p class="left secondaryText" id="description">Hola, soy Daniela Centeno, UX Designer de Laboratoria. En estos ultimos 6 meses eh aprendido sobre la metodología 'Agile' en Laboratoria, lo cual me ayudó a lograr proyectos interesantes en un corto plazo.</p>
+          <p class="left secondaryText">En mis tiempos libres me gusta dibujar y diseñar, lo cual me ayuda a estar siempre en un proceso creativo constantemente.</p>
+            <p class="left secondaryText">Una de mis metas es poder aprender mas sobre UX/UI Design y Inteligencia Artificial </p>
+            <br>
           <a class="btn left" href="#" download="CV DanielaCenteno">Download CV</a>
         </div>
       </section>
-      <section class="row thirdSection" id="skills">
+      <section class="row thirdSection scrollspy" id="skills">
         <h2 class="center primaryText">Skills</h2>
         <div class="col s12 l6 designPart">
-          <h4 class="center secondaryText">Design Program</h4>
+          <h4 class="center secondaryText">Diseño Gráfico</h4>
           <div class="icons">
             <img src="assets/images/photoshop.svg" class="icoSkills left" alt="Photoshop">
             <img src="assets/images/illustrator.svg" class="icoSkills left" alt="Illustrator">
@@ -64,7 +69,7 @@
           </div>
         </div>
         <div class="col s12 l6 webPart">
-          <h4 class="center secondaryText">Others</h4>
+          <h4 class="center secondaryText">Diseño Web</h4>
           <div class="icons">
             <img src="assets/images/html.svg" class="icoSkillsThree left" alt="html">
             <img src="assets/images/css.svg" class="icoSkillsThree left" alt="css">
@@ -75,7 +80,7 @@
           </div>
         </div>
       </section>
-      <section class="row FourSection" id="work">
+      <section class="row FourSection scrollspy" id="work">
         <h2 class="center">Work</h2>
         <div class="col s12 l4" id="workOne">
           <img class="mockUp" src="assets/images/LabCarMockUp.png" alt="LabCar">
@@ -87,12 +92,12 @@
             <span class="secondaryText borderTag">Responsive</span>
           </div>
             <div class="blockButton">
-              <a class="btn blue-grey darken-1 pulse " href="https://ddcenteno.github.io/lab-car-boilerplate-Bootstrap/">WebSite <i class="fas fa-desktop"></i></a>
+              <a class="btn blue-grey darken-1" href="https://ddcenteno.github.io/lab-car-boilerplate-Bootstrap/">Ver Demo <i class="fas fa-desktop"></i></a>
           </div>
         </div>
         <div class="col s12 l4" id="workTwo">
           <img src="assets/images/alienMockUp.png" alt="SCI-Files" class="mockUp">
-          <h5 class="center secondaryText"> Sci-File Web </h5>
+          <h5 class="center secondaryText">Sci-File Web </h5>
           <div class="tags">
             <span class="secondaryText borderTag">Bootstrap 4</span>
             <span class="secondaryText borderTag">css</span>
@@ -101,11 +106,11 @@
             <span class="secondaryText borderTag">omdb</span>
           </div>
             <div class="blockButton">
-              <a class="btn blue-grey darken-1 pulse " href="https://ddcenteno.github.io/ProyectMovie/">WebSite <i class="fas fa-desktop"></i></a>
+              <a class="btn blue-grey darken-1" href="https://ddcenteno.github.io/ProyectMovie/">Ver Demo <i class="fas fa-desktop"></i></a>
           </div>
         </div>
         <div class="col s12 l4" id="workThree">
-          <img src="assets/images/LaTerminaMockUp.png" alt="LaTermina" class="mockUp">
+          <img src="assets/images/LaTerminaMockUp.png" alt="LaTerminal" class="mockUp">
           <h5 class="center secondaryText"> La Terminal </h5>
           <div class="tags">
             <span class="secondaryText borderTag">User Research</span>
@@ -114,14 +119,34 @@
             <span class="secondaryText borderTag">Prototype</span>
           </div>
             <div class="blockButton">
-              <a class="btn blue-grey darken-1 pulse " href="https://ddcenteno.github.io/UX_Bux/">WebSite <i class="fas fa-desktop"></i></a>
+              <a class="btn blue-grey darken-1" href="https://ddcenteno.github.io/UX_Bux/">Ver Demo<i class="fas fa-desktop"></i></a>
           </div>
         </div>
       </section>
-      <footer class="page-footer finalSection grey darken-4">
-          <h6 class="left secondaryText">© Dani Centeno 2018</h6>
-          <h6 class="right secondaryText">
-          <a href=""><i class="fab fa-github"></i></a></h6>    
+        <section class="row contact grey darken-4 scrollspy" id="contact">
+        <h2 class="center">Contact</h2>
+            <div class="col s12 l4">
+                <h4 class="center">Envíame un correo </h4>
+                <h4 class="center"><i class="far fa-envelope-open"></i></h4>
+                <p class="center secondaryText">danielacentenoramos@gmail.com</p>
+            </div>
+            <div class="col s12 l4">
+                <h4 class="center">Conoce mis ultimos proyectos</h4>
+                <h4 class="center">
+                <a class="center white-text" href="https://github.com/DDCenteno"><i class="fab fa-github"></i></a>
+                    </h4>
+            </div>
+            <div class="col s12 l4">
+                <h4 class="center">Redes Sociales</h4>
+                <h4 class="center secondaryText">
+                    <a href="www.linkedin.com/in/danielacenteno" class="white-text"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/daniccenteno/" class="white-text"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/DaniiCram" class="white-text"><i class="fab fa-twitter-square"></i></a>
+                </h4>
+            </div>
+        </section>
+      <footer class="page-footer finalSection grey darken-4 scrollspy">
+          <h6 class="center secondaryText">© Dani Centeno 2018</h6>
     </footer>
     <!-- Paginas externas de js -->
     <script src="vendors/jQuery/jquery-3.3.1.min.js"></script>

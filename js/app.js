@@ -2,6 +2,7 @@
 $(document).ready(function(){
     $('.sidenav').sidenav();
     $('.parallax').parallax();
+    $('.scrollspy').scrollSpy();
 
     $(window).on('scroll', function() {
         if ($(window).scrollTop()) {
@@ -14,7 +15,6 @@ $(document).ready(function(){
       });
 
       $('#title').addClass('animated slideInDown');
-
       
 });
 

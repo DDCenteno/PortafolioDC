@@ -19,8 +19,9 @@ nav {
 .description {
     color: white;
     height: auto;
-    padding-top:20vh;
+    margin-top: 20vh;
     box-sizing: border-box;
+    text-shadow: 1px 2px 8px black;
 }
 .principalsection {
     box-sizing: border-box;
@@ -47,7 +48,7 @@ nav {
 .secondarySection{
     height: 100vh;
     box-sizing: border-box;
-    padding-top: 25vh;
+    margin-top: 25vh;
 }
 .principalText {
     font-family: 'Roboto', sans-serif;
@@ -56,14 +57,16 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 .leftblock {
-    outline: blueviolet 1px solid;
+    
 }
 .profilePhoto {
-    width: 100%;
+    height:  auto;
+    border-radius: 200px;
+    margin: 0 2vh; 
 }
 .thirdSection {
     height: 100vh;
-    padding-top: 25vh;
+    margin-top: 25vh;
 }
 .icoSkills {
     margin: 1vh 1vh;
@@ -75,29 +78,29 @@ nav {
 
 .icoSkillsThree {
     width: auto;
-    height: 80px;
+    height: 70px;
     margin:1vh 1vh;
 }
 .icons {
     /*outline: 1px solid red;*/
     box-sizing: border-box;
-    padding: 3%;
+    padding: 0%;
     height: 20vh;
 }
 .FourSection {
-    padding-top: 25vh;
+    height: auto;
 }
 .mockUp {
     width: auto;
-    height: 30vh;
-    margin: 5px;
+    height: 25vh;
     box-sizing: border-box;
 }
 #workOne, #workTwo, #workThree {
     height: auto;
-    padding-left: 5vh;
+    width: auto;
     padding-top: 5vh;
-    padding-bottom: 2vh; 
+    padding-bottom: 2vh;
+    box-sizing: border-box;
 }
 .borderTag {
     padding: 5px;
@@ -108,12 +111,12 @@ nav {
 }
 .blockButton {
     margin: 10px;
-    padding-left: 16vh;
-    padding-right: 16vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
 }
 .tags {
-    padding-left: 5vh;
-    padding-right: 5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
 .finalSection {
     background-color: #333;
@@ -121,6 +124,8 @@ nav {
     color: white;
     box-sizing: border-box;
     padding: 2vh;
+    width: 100%;
+    clear: both;
 }
 .btnlink  {
     padding: 10px;
@@ -138,9 +143,35 @@ nav {
     color: #333;
     transition: 1s;
 }
+.contact {
+    color: white;
+    border-bottom: 1px solid gray;
+    height: auto;
+    margin-bottom: 0 !important;
+    padding: 10vh;
+}
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 1280px) {
+    .description {
+        color: white;
+        height: auto;
+        margin-top: 35vh;
+        box-sizing: border-box;
+        text-shadow: 1px 2px 8px black;
+    }
+    .icons {
+        padding: 3%;
+    }
+    .mockUp {
+    width: auto;
+    height: 30vh;
+    margin: 0px;
+    box-sizing: border-box;
+    }
   .FourSection {
     height: 100vh;
     } 
+   .profilePhoto {
+    margin: 5vh 20vh;
+    }
 }
