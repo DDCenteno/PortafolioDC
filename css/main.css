@@ -22,13 +22,12 @@ nav {
     padding-top:20vh;
     box-sizing: border-box;
 }
-.pc {
+.principalsection {
     box-sizing: border-box;
-}
-.imgPrincipal {
-    background-image: url(../assets/images/FFOne.jpeg);
-    background-size: cover;
+    padding: 10vh;
     height: 100vh;
+    background-image: url(../assets/images/FFTwo.jpg);
+    background-size: cover;
 }
 #menu {
     position: fixed;
@@ -87,7 +86,6 @@ nav {
 }
 .FourSection {
     padding-top: 25vh;
-    height: 100vh;
 }
 .mockUp {
     width: auto;
@@ -96,6 +94,7 @@ nav {
     box-sizing: border-box;
 }
 #workOne, #workTwo, #workThree {
+    height: auto;
     padding-left: 5vh;
     padding-top: 5vh;
     padding-bottom: 2vh; 
@@ -118,7 +117,10 @@ nav {
 }
 .finalSection {
     background-color: #333;
-    padding-top: 25vh;
+    height: 10vh;
+    color: white;
+    box-sizing: border-box;
+    padding: 2vh;
 }
 .btnlink  {
     padding: 10px;
@@ -135,4 +137,10 @@ nav {
     background-color: white;
     color: #333;
     transition: 1s;
+}
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .FourSection {
+    height: 100vh;
+    } 
 }
