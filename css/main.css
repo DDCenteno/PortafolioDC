@@ -1,3 +1,9 @@
+/* fondo azul noche #111926
+ medo turquesa #24a9a8
+medio turquesa oscuro #16313b
+trquesa raro #116360
+rojo anaranjado #f15d4a
+*/
 body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -12,6 +18,9 @@ body {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transition: 1s;
+}
+.sidenav {
+    z-index: 1000 !important;
 }
 nav {
     background-color: rgba(0, 0, 0, 0) !important;
@@ -46,9 +55,22 @@ nav {
     color: white;
 }
 .secondarySection{
-    height: 100vh;
+    height: auto;
     box-sizing: border-box;
-    margin-top: 25vh;
+    margin-top: 5vh;
+}
+#aboutMe {
+    text-align: center;
+}
+.secondarySection .rightblock > p{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 5px;
+}
+.mt-5 {
+    margin-top: 5vh;
 }
 .principalText {
     font-family: 'Roboto', sans-serif;
@@ -56,37 +78,20 @@ nav {
 .secondaryText {
     font-family: 'Raleway', sans-serif;
 }
-.leftblock {
-    
-}
+
 .profilePhoto {
     height:  auto;
     border-radius: 200px;
     margin: 0 2vh; 
 }
 .thirdSection {
-    height: 100vh;
-    margin-top: 25vh;
-}
-.icoSkills {
-    margin: 1vh 1vh;
-    width: 80px;
-    height: 80px;
-    box-shadow: 1px 2px 4px gray;
-    border-radius: 20px;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 10vh;
+    background-color: #333;
+    color: white;
 }
 
-.icoSkillsThree {
-    width: auto;
-    height: 70px;
-    margin:1vh 1vh;
-}
-.icons {
-    /*outline: 1px solid red;*/
-    box-sizing: border-box;
-    padding: 0%;
-    height: 20vh;
-}
 .FourSection {
     height: auto;
 }
@@ -152,6 +157,11 @@ nav {
 }
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 1280px) {
+    .secondarySection{
+        height: 90vh;
+        box-sizing: border-box;
+        margin-top: 10vh;
+    }
     .description {
         color: white;
         height: auto;
@@ -163,15 +173,19 @@ nav {
         padding: 3%;
     }
     .mockUp {
-    width: auto;
-    height: 30vh;
-    margin: 0px;
-    box-sizing: border-box;
+        width: auto;
+        height: 30vh;
+        margin: 0px;
+        box-sizing: border-box;
     }
   .FourSection {
-    height: 100vh;
+        height: 100vh;
     } 
    .profilePhoto {
-    margin: 5vh 20vh;
+        margin: 5vh 20vh;
+    }
+    .workcenter {
+    padding-left: 20vh !important;
+    padding-right: 10vh !important;
     }
 }
