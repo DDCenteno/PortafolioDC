@@ -36,7 +36,7 @@ nav {
     box-sizing: border-box;
     padding: 10vh;
     height: 100vh;
-    background-image: url(../assets/images/FFTwo.jpg);
+    background-image: url(../assets/images/backgroundimage.jpg);
     background-size: cover;
 }
 #menu {
@@ -100,18 +100,20 @@ nav {
     height: 25vh;
     box-sizing: border-box;
 }
-#workOne, #workTwo, #workThree {
-    height: auto;
+.mockUpMobile {
+    height: 50vh;
     width: auto;
-    padding-top: 5vh;
-    padding-bottom: 2vh;
-    box-sizing: border-box;
+}
+/* Trabajos */
+.editation {
+    border-color: lightgrey;
+    margin: 5vh;
+    display: block;
 }
 .borderTag {
     padding: 5px;
-    background-color: gray;
+    background-color: lightgrey;
     border-radius: 5px;
-    margin: 3px;
     color: white;
 }
 .blockButton {
@@ -125,7 +127,7 @@ nav {
 }
 .finalSection {
     background-color: #333;
-    height: 10vh;
+    height: auto;
     color: white;
     box-sizing: border-box;
     padding: 2vh;
@@ -175,11 +177,15 @@ nav {
     .mockUp {
         width: auto;
         height: 30vh;
-        margin: 0px;
+        margin-top: 10vh;
         box-sizing: border-box;
     }
+    .mockUpMobile {
+        height: 50vh;
+        width: auto;
+    }
   .FourSection {
-        height: 100vh;
+        height: auto;
     } 
    .profilePhoto {
         margin: 5vh 20vh;
