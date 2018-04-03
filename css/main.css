@@ -151,11 +151,15 @@ nav {
     transition: 1s;
 }
 .contact {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     color: white;
     border-bottom: 1px solid gray;
     height: auto;
     margin-bottom: 0 !important;
-    padding: 10vh;
+}
+.space {
+    margin: 1vh;
 }
 /* Desktop */
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -193,5 +197,21 @@ nav {
     .workcenter {
     padding-left: 20vh !important;
     padding-right: 10vh !important;
+    }
+}
+/* Ultra mobile */
+@media (max-width: 360px) {
+    .profilePhoto {
+        margin: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 320px) {
+    .profilePhoto {
+        margin: 0;
+        width: 100%;
+    }
+    .btnshort {
+        margin-bottom: 1vh;
     }
 }
